@@ -1,0 +1,106 @@
+body {
+	margin: 0px;
+	padding :0px;
+	border: 0px;
+	width:100%;
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0;
+}
+
+.italic {
+	font-weight: bold;
+}
+
+#splash-page {
+	height: 100vh;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+	border-bottom: solid white 2px;
+}
+
+.title-bar-noScroll {
+	margin-left: 4%;
+	width: 30%;
+	border-bottom: solid white 3px;
+	position: fixed;
+	transition: all .6s;
+}
+
+.title-bar-scroll {
+	margin: 0;
+	padding-left: 4%;
+	width: 100%;
+	background-color: red;
+	border-bottom: solid #161940 2px;
+	position: fixed;
+	transition: all .5s;
+}
+
+.title-bar-noScroll h1 {
+	color: white;
+	margin-top: 3vh;
+	font-size: 4em;
+}
+
+.title-bar-scroll h1 {
+	color: #232863;
+	margin-top: 3vh;
+	font-size: 4em;
+}
+
+#splash-content{
+	margin-top: 14vh;
+	margin-left: 40%;
+	width: 45%;
+}
+
+#splash-content h2 {
+	font-size: 5.5em;
+	color: white;
+}
+
+#splash-content h3 {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-size: 2.5em;
+}
+
+#what-is {
+	padding-top: 5vh;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #4A4946;
+}
+
+#what-is h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 5em;
+	color: white;
+}
+
+#what-is p {
+	margin-top: 3vh;
+	text-align: center;
+	font-style: italic;
+	font-size: 2.5em;
+	color: white;
+	padding-bottom: 4vh;
+}
+
+#process {
+	width: 100%;
+	margin: 0 auto;
+	border-top: solid #232863 4px;
+	background-color: white;
+}
+
+#process h1 {
+	text-align: center;
+	color: #232863;
+}
