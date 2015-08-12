@@ -19,7 +19,8 @@ body {
 	background-image: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100vh;
-	border-bottom: solid white 2px;
+	border-bottom: solid #161940 2px;
+	margin: 0;
 }
 
 .title-bar-noScroll {
@@ -34,22 +35,26 @@ body {
 	margin: 0;
 	padding-left: 4%;
 	width: 100%;
-	background-color: red;
-	border-bottom: solid #161940 2px;
+	background-color: #FEFEFE;
+	border-bottom: solid #161940 3px;
 	position: fixed;
 	transition: all .5s;
 }
 
 .title-bar-noScroll h1 {
+	padding: 0;
 	color: white;
 	margin-top: 3vh;
 	font-size: 4em;
+	transition: all .6s;
 }
 
 .title-bar-scroll h1 {
-	color: #232863;
-	margin-top: 3vh;
-	font-size: 4em;
+	padding: 0;
+	color: #2D3053;
+	margin-top: 1vh;
+	font-size: 3.7em;
+	transition: all .5s;
 }
 
 #splash-content{
@@ -74,14 +79,14 @@ body {
 	padding-top: 5vh;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #4A4946;
+	background-color: #FEFEFE;
 }
 
 #what-is h1 {
-	margin: 0;
+	padding: 0;
 	text-align: center;
 	font-size: 5em;
-	color: white;
+	color: #161940;
 }
 
 #what-is p {
@@ -89,18 +94,74 @@ body {
 	text-align: center;
 	font-style: italic;
 	font-size: 2.5em;
-	color: white;
+	color: #161940;
 	padding-bottom: 4vh;
 }
 
 #process {
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
-	border-top: solid #232863 4px;
-	background-color: white;
+	margin-bottom: 5%;
+	border-radius: 7px;
+	background-color: #2D3053;
 }
 
-#process h1 {
+#process #process-t-chart {
+	margin: 0 auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 10%;
+}
+
+#process #process-t-chart .you-give {
+	float: left;
+	width: 50%;
+}
+
+#process #process-t-chart .we-give {
+	float: left;
+	width: 50%;
+}
+
+#process #process-t-chart .you-give .bottom {
+	padding-top: 5%;
+	border-top: solid white 2px;
+}
+
+#process #process-t-chart .we-give .bottom {
+	border-top: solid white 2px;
+	border-left: solid white 2px;
+}
+
+#process #process-t-chart h1 {
+	color: white;
 	text-align: center;
-	color: #232863;
+}
+
+#process #process-t-chart ul {
+	color: white;
+	text-align: center;
+}
+
+#process #process-t-chart .bottom {
+	padding-bottom: 5%;
+}
+
+#process #process-t-chart .top h1{
+	font-size: 3.5em;
+}
+
+#process #process-t-chart .bottom h1{
+	font-size: 4.5em;
+	margin: 0 auto;
+	width: 75%;
+}
+
+#process #process-t-chart .bottom h2{
+	font-style: italic;
+}
+
+#process #process-t-chart .bottom ul{
+	margin: 0;
 }

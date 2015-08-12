@@ -1,0 +1,5 @@
+Text and border dark blue : #161940
+
+Main softer navy : #2D3053
+
+Main softer white : #FEFEFE
