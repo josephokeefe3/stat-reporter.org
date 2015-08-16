@@ -8,6 +8,7 @@ gem "rake"
 gem 'geocoder'
 gem 'pg'
 gem 'thin'
+gem 'svg-graph'
 
 group :development do
   gem "pry"
