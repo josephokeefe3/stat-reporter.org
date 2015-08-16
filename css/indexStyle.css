@@ -8,6 +8,7 @@ body {
 .container-fluid {
 	width: 100%;
 	padding: 0;
+	min-width: 1300px;
 }
 
 .italic {
@@ -29,6 +30,7 @@ body {
 	border-bottom: solid white 3px;
 	position: fixed;
 	transition: all .6s;
+	min-width: 363px;
 }
 
 .title-bar-scroll {
@@ -55,6 +57,41 @@ body {
 	margin-top: 1vh;
 	font-size: 3.7em;
 	transition: all .5s;
+}
+
+.create-button {
+	border: 0;
+	position: fixed;
+	right: 0;
+	height: 8vh;
+	margin-top: 3vh;
+	margin-right: 3%;
+	font-size: 2em;
+	font-style: bold;
+	transition: all .5s;
+	min-height: 55px;
+}
+
+.create-button-scroll {
+	border: 0;
+	position: fixed;
+	right: 0;
+	height: 7vh;
+	margin-top: 1vh;
+	margin-right: 2%;
+	font-size: 1.5em;
+	font-style: bold;
+	transition: all .5s;
+	min-height: 55px;
+}
+
+#index-create-button {
+	background-color: white;
+	color: #161940;
+}
+
+#index-create-button:hover {
+	background-color: #BABABA;
 }
 
 #splash-content{
@@ -105,6 +142,7 @@ body {
 #process {
 	width: 95%;
 	margin: 0 auto;
+	padding-bottom: 1%;
 	margin-bottom: 8%;
 	border-radius: 7px;
 	background-color: #2D3053;
@@ -157,9 +195,9 @@ body {
 }
 
 #process #process-t-chart .bottom h1{
-	font-size: 5em;
+	font-size: 6em;
 	margin: 0 auto;
-	padding-top: 4vh;
+	padding-top: 7vh;
 	width: 85%;
 }
 
