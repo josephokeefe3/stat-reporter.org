@@ -19,6 +19,15 @@ $(function(){
 		}		
 	});
 
+	$('#field-player-options table tr').click(function(){
+		console.log('test');
+		$('this td:last-of-type').html("adsf");
+		// removeClass('glyphicon-remove-circle');
+		$('this td').addClass('glyphicon-ok-circle');
+	});
+
+	
+
 
 
 });

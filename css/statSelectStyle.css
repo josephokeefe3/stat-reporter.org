@@ -1,3 +1,8 @@
+table {
+	border-collapse: separate;
+    border-spacing: 0;
+}
+
 .container-fluid {
 	width: 100%;
 	padding: 0;
@@ -28,9 +33,42 @@
 }
 
 .panel {
-	margin-top: 10%;
+	margin-top: 0;
 }
 
 .panel-default {
 	padding: 0;
+}
+
+#stat-options {
+	margin-top: 7.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#stat-options h2 {
+
+}
+
+table {
+	border: solid #161940 1.5px;
+	border-radius: 5px;
+}
+
+
+table td {
+	padding: 5px;
+	font-size: 2em;
+	text-align: left;
+	color: #161940;
+	border: 0;
+}
+
+table tr:hover td {
+	color: white;
+	border: 0;
+}
+
+table tr:hover {
+	background-color: #2D3053;
 }
